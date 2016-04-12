@@ -1,0 +1,20 @@
+{
+  "name": "url-loader",
+  "description": "Loads Multiple URLs and shows them.",
+  "main": "",
+  "authors": [
+    "Ricardo Rivas G. <richistron@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jasmine-core": "^2.4.1"
+  }
+}
