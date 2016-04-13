@@ -25,7 +25,7 @@ const _browserify = function(src, name, dest) {
 
 
 gulp.task('browserify', ['clean:tmp'], () => {
-  _browserify('scripts/main.js', 'url-loader.js', '.tmp/scripts');
+  _browserify('scripts/main.js', 'iframe-rotator.js', '.tmp/scripts');
   _browserify('spec/main.js', 'tests.js', '.tmp/spec');
 });
 
@@ -37,7 +37,7 @@ gulp.task('watch', () => {
 
 
 gulp.task('uglify', () => {
-  gulp.src('.tmp/scripts/url-loader.js')
+  gulp.src('.tmp/scripts/iframe-rotator.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist'));
 });
